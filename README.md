@@ -2,8 +2,10 @@
 
 RecSys + RAG. 후보를 모델이 고르고, LLM은 그 안에서만 이유를 씁니다.
 
-**메인:** [why-this-product](https://github.com/DaGoMi1/why-this-product) — 이커머스 multi-stage 추천 + “왜 이 상품인가”
-
-- [movie-recommendation](https://github.com/DaGoMi1/movie-recommendation) — 영화 추천, 모델링·앙상블
-- [why-song-serious](https://github.com/DaGoMi1/why-song-serious) — 음악 추천, 모델링·서빙
-- [busan-trip-rag](https://github.com/DaGoMi1/busan-trip-rag) — TourAPI + FAISS RAG
+## Selected
+- **[why-this-product](https://github.com/DaGoMi1/why-this-product)** — 이커머스 RecSys + 후보 안 설명. pop·MMR 서빙, RAG는 `item_ids`만
+- **[movie-recommendation](https://github.com/DaGoMi1/movie-recommendation)** — MovieLens Recall@10 · Private 1위 (앙상블)
+- **[why-song-serious](https://github.com/DaGoMi1/why-song-serious)** — FAISS 후보 + DeepFM 랭킹 서빙
+- **[delivery-service](https://github.com/DaGoMi1/delivery-service)** — Spring Boot · JWT · 주문 API
+## Stack
+Python · FastAPI · FAISS · PyTorch · LightGBM · OpenAI · Spring Boot · Docker
